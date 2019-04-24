@@ -75,8 +75,8 @@ class ObjectRepositoryProvider
                 // left to right so reverse the array
                 $roles[] = new Role\Role($role->getRoleId(), array_reverse($parents));
             }
-
-            return $roles;
         }
+
+        return $roles;
     }
 }
